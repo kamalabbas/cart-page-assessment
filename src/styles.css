@@ -1,1 +1,91 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+h2,
+h3 {
+  font-weight: bold !important;
+}
+
+h2 {
+  font-size: 1.4rem !important;
+}
+
+h3 {
+  font-size: 1.1rem !important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: gray;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.selected {
+  border: 2px solid black;
+}
+
+.font-normal {
+  font-weight: normal !important;
+}
+
+.custom-input-wrapper {
+  height: 50px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.custom-input-wrapper .custom-input {
+  border: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0 50px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.custom-input-wrapper .prefix,
+.custom-input-wrapper .suffix {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+  width: 20px;
+}
+
+.custom-input-wrapper .prefix {
+  left: 20px;
+}
+
+.custom-input-wrapper .suffix {
+  right: 20px;
+}
+
+.custom-input:invalid {
+  border: 1px solid red;
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}
